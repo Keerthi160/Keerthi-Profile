@@ -1,0 +1,58 @@
+/* Increase the width of the dialog */
+.mat-dialog-container {
+    width: 100vw; /* Set your desired width (percentage of the viewport width) */
+    max-width: 1000px; /* Set a maximum width if needed */
+}
+
+/* Increase the height of the dialog */
+.mat-dialog-content {
+    height: 80vh; /* Set your desired height (percentage of the viewport height) */
+    max-height: 400px; /* Set a maximum height if needed */
+}
+
+/* Style for mat-dialog-content */
+mat-dialog-content {
+    text-align: center;
+}
+
+h2 {
+    color: #333; /* Set your desired color */
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3; /* Set your desired hover background color */
+}
+
+/* Style for mat-dialog-actions */
+mat-dialog-actions {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ccc; /* Set your desired button background color */
+    color: #333; /* Set your desired button text color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #999; /* Set your desired button hover background color */
+    color: #fff; /* Set your desired button hover text color */
+}
+.fa{
+    color:saddlebrown;
+    font-size: xx-large;
+}

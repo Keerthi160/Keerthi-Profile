@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+/* *{
+font-family: 'Headland One', serif;
+font-family: 'Satisfy', cursive;
+} 
+Animation on scroll
+*/
+body{
+    margin: 0px;
+}
+* {
+    box-sizing: border-box;
+
+    --primary: #1F2235;
+    --secondary: #24263b;
+    --secondary-text: #dfdfdf;
+
+    --blue-light: #8abdff;
+    --blue: #6d5dfc;
+    --blue-dark: #5b0eeb;
+
+    --greyLight-1: #E4EBF5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --white: #FFFFFF;
+    --greyDark: #9baacf;
+
+    --typeScript: #0076c6;
+    --js: #efd81d;
+    --java: #e42c2e;
+    --html-dark: #dd4d26;
+    --html-light: #e5622a;
+    --css-dark: #254bdd;
+    --css-light: #2862e9;
+    --full: 100%;
+    --max-width-body: 1170px;
+    --top-padding: 10px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

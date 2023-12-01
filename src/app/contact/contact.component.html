@@ -1,0 +1,47 @@
+<div class="container con-con mt-5 ">
+  <h2 class="text-center">Contact Me</h2>
+  <div class="row mt-2">
+    <div class="col-md-6 mt-4">
+      <div class="contact-info">
+        <div class="ele mt-4">
+          <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Elandaikudam, TamilNadu
+          </p>
+        </div>
+        <div class="ele mt-4 ">
+          <p>
+            <i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91 8870933508
+          </p>
+        </div>
+        <div class="ele mt-4">
+          <p>
+            <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; keerthirajazhagesan@gmail.com
+          </p>
+        </div>
+        <div class="ele mt-5">
+          <ul class="social-icons icon-circle list-unstyled list-inline">
+              <li><a href="https://www.linkedin.com/in/keerthiraj-azhagesan-83659927b/"><i
+                    class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/Keerthi160"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.instagram.com/____keerthiraj___/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+       </div>
+      </div>
+    </div>
+    <div class="col-md-6 mt-4">
+      <form ng-submit="submitForm()">
+        <div class="form-group">
+      <input type="text" id="name" name="name" ng-model="formData.name" placeholder="Name"required>
+        </div>
+        <div class="form-group">
+          
+          <input type="email" id="email" name="email" ng-model="formData.email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+           <textarea id="message" name="message" ng-model="formData.message" placeholder="Message"required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>

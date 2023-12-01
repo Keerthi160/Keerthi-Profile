@@ -1,0 +1,93 @@
+
+.skill-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 8px;
+  transition: all 0.3s ease-in-out;
+  max-width: 100%; 
+  height: auto; 
+  object-fit: cover;
+}
+p{
+  color: gray;
+}
+
+.con-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text{
+  font-family: 'Headland One', serif;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.skill-image:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.textp{
+  font-family: 'Headland One', serif;
+  font-size:20px;
+}
+/* Responsive styles */
+@media (max-width: 576px) {
+  .skill-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text {
+    font-size: large;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .skill-image {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .skill-image {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .skill-image {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .skill-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .text {
+    font-size: large;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .textp {
+    font-size:20px ;
+  }
+  .text{
+    font-size: 30px;
+  }
+}
