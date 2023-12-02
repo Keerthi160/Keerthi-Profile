@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-url="assets/images/profile.jpg"
+url="assets/images/pr.jpeg"
   title="About Me";
   text1="I'm Keerthiraj I'm a ";
   why="Why Work With Me";
