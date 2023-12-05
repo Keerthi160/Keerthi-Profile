@@ -76,6 +76,7 @@ button:hover {
    .ele {
     font-family: 'Headland One', serif;
     font-size:20px;
+     text-decoration:none;
    }
    .fa{
     font-size: 20px;
